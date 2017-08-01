@@ -7,7 +7,7 @@ The implementation of the simulation of an unix-based file system.
 ```
 ls, cd, mkdir, read, write, rm, rmdir
 ```
-The form of the usage of the read, write commands:
+* The form of the usage of the *read, write* commands:
 ```
 write [file path] "file content"
 ```
@@ -18,10 +18,12 @@ read [file path]
 ```
 It outputs the corresponding file content of file path. 
 
+* The other 5 commands have the same function in the common unix based file system.
 
 
 Usage 
 -------------
+Compiling:
 ```
 make
 ```
@@ -29,7 +31,7 @@ or
 ```
 make clean all
 ```
-to compile the source
+Executing:
 
 ```
 ./fileSystem
